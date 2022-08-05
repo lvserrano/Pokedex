@@ -22,6 +22,8 @@ const renderPokemon = async (pokemon) => {
     input.value = '';
   }else {
     pokemonName.innerHTML = 'Não encontrado :(';
+    pokemonNumber.innerHTML = '';
+    pokemonImage.src = '';
   }
 }
 
