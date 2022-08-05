@@ -35,3 +35,4 @@ form.addEventListener('submit', (event) => {
   renderPokemon(input.value);
   
 } );
+renderPokemon('1');
